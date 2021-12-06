@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	    SetT<Integer> zbior = new SetT<>();
+        WzimSet<Integer> zbior = new WzimSet<>();
 
 
         zbior.add(2);
@@ -16,7 +16,7 @@ public class Main {
             System.out.print(znak + " ");
         System.out.print('\n');
 
-        SetT<Integer> zbior_2 = new SetT<>();
+        WzimSet<Integer> zbior_2 = new WzimSet<>();
 
         zbior_2.add(2);
         zbior_2.add(3);

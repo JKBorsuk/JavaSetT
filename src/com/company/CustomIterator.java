@@ -5,8 +5,8 @@ import java.util.Iterator;
 class CustomIterator<T> implements Iterator<T>
 {
     Integer index = 0;
-    SetT<T> l;
-    public CustomIterator(SetT<T> ts) {
+    WzimSet<T> l;
+    public CustomIterator(WzimSet<T> ts) {
         l = ts;
     }
 
